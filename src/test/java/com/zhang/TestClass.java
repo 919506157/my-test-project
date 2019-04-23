@@ -153,6 +153,16 @@ public class TestClass {
             list.add(new Object());
         }
     }
+    @Test
+    public void Test12() {
+        ArrayList list = new ArrayList();
+        Object o = new Object();
+        list.add(o);
+        list.remove(o);
+        while (true) {
+            list.add(new Object());
+        }
+    }
 
 
 }
