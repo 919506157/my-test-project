@@ -1,0 +1,16 @@
+unspay.quickpay-business.ft.gateway.service.url.abc_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.boc_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.comm_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.psbc_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.cmb_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.ceb_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.cncb_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.hxb_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.spdb_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.cmbc_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.gdb_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.cib_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.bosh_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.bob_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.pingan_q_chinapay_order_rz_c
+unspay.quickpay-business.ft.gateway.service.url.ccb_q_chinapay_order_rz_c

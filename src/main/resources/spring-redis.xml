@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:unscache="http://www.uns.com/schema/uns-cache"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.uns.com/schema/uns-cache 
+        http://www.uns.com/schema/uns-cache/uns-cache-1.0.0.xsd">
+
+    <unscache:config appName="my-test-project">
+        <unscache:redis connection-cache-size="2" connection-max-size="20" timeout="5000" servers="172.22.25.137:6379"/>
+    </unscache:config>
+
+</beans>

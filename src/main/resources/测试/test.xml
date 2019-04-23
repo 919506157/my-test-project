@@ -1,0 +1,30 @@
+<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<root xmlns=\"namespace_string\"><MsgHeader>
+<SndDt>2019-03-25T22:46:18</SndDt>
+<MsgTp>epcc.242.001.01</MsgTp>
+<IssrId>G4000311000018</IssrId>
+<Drctn>21</Drctn>
+<SignSN>4009725408</SignSN>
+<NcrptnSN>4022238778</NcrptnSN>
+<DgtlEnvlp>
+    MIGMAiBTbcKzbe3SQEMiUaacILwhuwZ+M4r4NagUns/jOnU9YgIhAP7KKonS0MB7XXLiKCpI72HHiMj7CQdjaSPugQRY7QzkBCDN6xXLOd9rz3eEB1zFArcUHGRxUbhs22nkVPx3vmHqdQQjN3qB1m8TZm63bbXPjOsov0SWXlZIh+/DXKnamLcklBMTyS4=
+</DgtlEnvlp>
+</MsgHeader><MsgBody>
+<SysRtnInf>
+    <SysRtnCd>00000000</SysRtnCd>
+    <SysRtnDesc>成功</SysRtnDesc>
+    <SysRtnTm>2019-03-25T22:46:18</SysRtnTm>
+</SysRtnInf>
+<BizInf>
+    <TrxCtgy>0112</TrxCtgy>
+    <TrxId>2019032520190325682701720102500</TrxId>
+    <TrxAmt>CNY13200.00</TrxAmt>
+    <TrxStatus>02</TrxStatus>
+    <BizStsCd>00000000</BizStsCd>
+    <BizStsDesc>成功</BizStsDesc>
+    <RdrctUrl>https://ebank.cebbank.com/cebent/preEPCCLogin.do?_locale=zh_CN</RdrctUrl>
+</BizInf>
+<Sec>
+    CZst3rDJcSuWyWadc3H6xIbPbdnh2nImdWErrrcRpiCUu5ebNCDTgn69vp9+UaBExfYG/obaw95Yuf0VHl6JUSqSozwUWc87mYcSpvV4xHcEabJUdcCJKL8ke2bzRIjJoDwzUo9GCc8RDYRH8pf7eMU/JuldOwKS7TeNGHRkT1jlRnW8VbgxT8Dj3ZKlrxYo9fqr8hOY/zhEEqTsMM5Zlmk5Yap653t/COec1o5dtGbO3o8AMnXP/qe8ZZSPKw79TJ3fk1dwDvprwz1gGwxYG0tV+m0lhxjcl/3pn12Cpwzf3Gzx3GfOl0sLmKmOqvm5F+EipnV5DZKb2ZWVtbVunidZwE+z9aKPH1Fjvx9/17hiYf+HXFfxdC1o8xoPyjqX8jgnOwP0C1Os7OzhtbmI9itZ597r0FOIxcu/m0y27k7vGkpeX+ee/ZVCSTbmgk/wCUYdBxY6N4CmIT9POpiLyzDiLmNrKWzYWJDsLgzOLq/nHQtMhmX5g+RN2Efu1A/3WRDtamubITP3edI3U5wO/Qo5qPmLNZXe6gRt2g6hOruF0RlkJ02iOUs0GGyvy4jPu0Li5UT5VUkZZyyB5ZXsODe53DC3hLHnsbVyPlnJXkqsKHFBxYL1szAJrUJC+PkXZdC+p1PBTnkCoDpgS2ovK4tLkzfxS0UKkMM7AiHC5Dq5Wuc56Nmgnn0Bf5rq9mx8yYys7j3HHEnbqhIzr/g+h9GqZeOFyiLIqEW8b49rOp14wg7AU+DLupvsHgrnqcl6mIHrt+B+MPU4jL+YpRG/NUUXRNmmPtCGol2qDdGdZW1h9cdY6IJlmwFGD6Un0cTrIKG2mj+cQslO/OsF46RLo+S1LqGnhvlLvBPDEziV+KH+Eru7xKG+z4eRIoOLqrTRNGBHKx72qEeQ4tY4/LAaetUkVaR+uxlHVnXtq21PJC3TBkiE2Gj/UHU1sF96h7QuuL3MErpz7iM044vYppmfw+3A/vbcbr7UiWn95IKo1V8gShJLoQ5bg1IxNHLujvYIT5rsJK+cNgqskUveyBrpb5KXEg0MLgNnLcj/15yqjhi+a1BQsXnN3uV+XnsUIubKVfOJY3oQqokh8zvJqp6orWTdNHW6tIU5DqGE6sGfjEWsxoaPgY9qU2v7bcoDKnZqvLrzN9Ow6cnZhCukGP07VBHvTwB8AL9525dU35mIrhBfvRTeWu5r4V71AEgOIhChS4le4yAv3nXk53umGlMS94veWMLvNWxO81xVI+C0qiURTnsyDS1cjvYStzPjdY4JEY6K3s9/btBi0Pqo43AsVpilCQshMY8p36B2Zcx1PQ1Es5HWpmf+fIKosFpMwnMfwy+kprGKh8eIei/FASujYXcQ410sAL+RTP9NgiRnH55/axqLh9122Emx1oj5jSyXWhccfDnDSsdVNN+1yI+xbwzYqRsrY7E6RzD6G7IUzwvnf98a/5BL+XzGqnoTERbtRPg12e7ZWZ/DyKFO4vEWWduX05Fhw5Ndyvjf3w7Y4yA0FLf/t27++N7s6D819EOA+BfqRvySd0UqRkrkVSWBlht9HX5M+F+H3ctGoFdRaEBu/PlRtsa9Y2ZqVF+qyeV2jmWokTizB05izVVfEM86YUDZTtiQouy+Pj1MyAcTgvxGNNeq4r2NElkQUsP+/VUeMagBt1a0qeQmhxSk/tP9Yw==
+</Sec>
+</MsgBody></root>\r\n{S:lqcPMwLfSK/xfvTZQSocK3B83JcmUBThdSggQFA50eTdJ5TXbIbfmfPRseuZR5wdB8iUrBTMHG6WVnz2gKBX9W4zZMg571INedK1f7lHtepqut8HFm084fMoTXy/6KkP1Fc4BC5ZCWp7YJG/rwoMWTUimKjWgLRyZUww0YtnnAkFRHGNNbvjjVig4T/rs4uAPx4ltIR+Xr83npgcSkgXjNaKQSXkwU7enMk87AfkR/8qjD4Jfj8BMxwaPRiY/wATQfnxPFdWY8rfEFy88f8ieogdFWMdeRpy0jUimn9P6ryDN19pQyIzfzbwxndkL+A0fJSaIeYwUtopUCcxIzSMEw==}

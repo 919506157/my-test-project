@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:cnaps:std:hvps:2010:tech:xsd:hvps.714.001.01">
+	<TxDwnldgReq>
+		<GrpHdr>
+			<MsgId>${MsgId}</MsgId>
+			<CreDtTm>${CreDtTm}</CreDtTm>
+			<InstgPty>
+				<InstgDrctPty>${InstgDrctPty}</InstgDrctPty>
+				<InstgPty>${InstgPty}</InstgPty>
+			</InstgPty>
+			<InstdPty>
+				<InstdDrctPty>${InstdDrctPty}</InstdDrctPty>
+				<InstdPty>${InstdPty}</InstdPty>
+			</InstdPty>
+			<SysCd>${SysCd}</SysCd>
+			<Rmk>${Rmk}</Rmk>
+		</GrpHdr>
+		<TxDwnldgReqInf>
+			<NbOfTxs>${NbOfTxs}</NbOfTxs>
+			<TxsDtls>
+				<SndRcvTp>${SndRcvTp}</SndRcvTp>
+				<OrgnlGrpHdr>
+					<OrgnlMsgId>${OrgnlMsgId}</OrgnlMsgId>
+					<OrgnlInstgPty>${OrgnlInstgPty}</OrgnlInstgPty>
+					<OrgnlMT>${OrgnlMT}</OrgnlMT>
+				</OrgnlGrpHdr>
+			</TxsDtls>
+		</TxDwnldgReqInf>
+	</TxDwnldgReq>
+</Document>

@@ -1,0 +1,1 @@
+<root xmlns="namespace_string"><MsgHeader><SndDt>${SndDt}</SndDt><MsgTp>epcc.303.001.01</MsgTp><IssrId>${IssrId}</IssrId><Drctn>11</Drctn><SignSN>${SignSN}</SignSN></MsgHeader><MsgBody><SysRtnInf><SysRtnCd>00000000</SysRtnCd><SysRtnDesc>成功</SysRtnDesc><SysRtnTm>${SysRtnTm}</SysRtnTm></SysRtnInf></MsgBody></root>
