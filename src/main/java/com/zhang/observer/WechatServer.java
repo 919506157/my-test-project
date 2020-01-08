@@ -39,6 +39,7 @@ public class WechatServer implements Observerable {
 
     /**
      * 公众号更新消息
+     *
      * @param message
      */
     public void setMessage(String message) {
