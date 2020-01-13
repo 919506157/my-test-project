@@ -1,35 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE generatorConfiguration
-  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
-  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
 
-    <classPathEntry  location="E:\jar\ojdbc6-11.2.0.3.jar"/>
-    <context id="DB2Tables"  targetRuntime="MyBatis3">
+    <!--oracle驱动-->
+    <classPathEntry location="E:\jar\ojdbc6-11.2.0.3.jar"/>
+
+    <!---->
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+
         <commentGenerator>
             <property name="suppressDate" value="true"/>
-
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
             <property name="suppressAllComments" value="true"/>
         </commentGenerator>
 
-        <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver" connectionURL="jdbc:oracle:thin:@172.22.20.101:1521:unspaydb" userId="vnv" password="vnv_72">
+        <!--数据库链接URL，用户名、密码 -->
+        <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver"
+                        connectionURL="jdbc:oracle:thin:@172.22.20.101:1521:unspaydb" userId="vnv" password="vnv_72">
         </jdbcConnection>
+
+        <!--java类型解析器-->
         <javaTypeResolver>
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="com.uns.unspay.entity" targetProject="cncb-overseas-gateway">
+        <!--实体类生成位置-->
+        <javaModelGenerator targetPackage="com.mybatis.entity" targetProject=".\src\main\java">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="mybatis" targetProject="cncb-overseas-gateway">
+        <!--mapper.xml的位置-->
+        <sqlMapGenerator targetPackage="com.mybatis.xml" targetProject=".\src\main\java">
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.uns.unspay.mapper" targetProject="cncb-overseas-gateway">
+        <!--mapper接口的位置-->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.mybatis.mapper" targetProject=".\src\main\java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
+
+
+        <!--表名-->
+
+        <!--<table tableName="cps_settlement_exchange"/>-->
+
+        <table tableName="cps_settlement_exchange" enableCountByExample="false"
+               enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false"/>
+
+        <!--<table tableName="cps_settlement_exchange" domainObjectName="CpsSettlementExchange" enableCountByExample="false"
+               enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false"/>-->
 
         <!-- <table tableName="Cps_Purchase_Order" domainObjectName="CpsPurchaseOrder" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
         <table tableName="Cps_Purchase_Detail" domainObjectName="CpsPurchaseDetail" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
@@ -40,6 +64,6 @@
 		<table tableName="Cps_Channel_Bank_Info" domainObjectName="CpsChannelBankInfo" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
 		-->
 
-		<table tableName="cps_collect_exchange" domainObjectName="CpsCollectExchange" enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false"></table>
-	</context>
+
+    </context>
 </generatorConfiguration>  

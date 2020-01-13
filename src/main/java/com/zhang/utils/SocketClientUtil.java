@@ -1,7 +1,6 @@
 package com.zhang.utils;
 
-import net.sf.json.JSONObject;
-
+import com.alibaba.fastjson.JSON;
 
 import java.io.*;
 import java.net.InetSocketAddress;
@@ -79,7 +78,7 @@ public class SocketClientUtil {
 
         String json = "";
         try {
-            json = JSONObject.fromObject(obj).toString();
+            json = JSON.toJSONString(obj);
             return json;
         } catch (Exception e) {
             json = "{\"err\":\"" + "JsonObject is wrong" + "\"}";
