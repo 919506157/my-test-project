@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generate.EpccQrcOrderRelDao">
+  <resultMap id="BaseResultMap" type="generate.EpccQrcOrderRel">
+    <result column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="TRANS_ID" jdbcType="VARCHAR" property="transId" />
+    <result column="CHANNEL_TRANS" jdbcType="VARCHAR" property="channelTrans" />
+    <result column="ORI_TRANS_ID" jdbcType="VARCHAR" property="oriTransId" />
+    <result column="STATUS" jdbcType="VARCHAR" property="status" />
+    <result column="ACCOUNT_ORG_ID" jdbcType="VARCHAR" property="accountOrgId" />
+    <result column="MER_NO" jdbcType="VARCHAR" property="merNo" />
+    <result column="MERORDERID" jdbcType="VARCHAR" property="merorderid" />
+    <result column="MER_TYPE" jdbcType="VARCHAR" property="merType" />
+    <result column="QR_CODE" jdbcType="VARCHAR" property="qrCode" />
+    <result column="QR_TYPE" jdbcType="VARCHAR" property="qrType" />
+    <result column="TRANS_TYPE" jdbcType="VARCHAR" property="transType" />
+    <result column="AMOUNT" jdbcType="DECIMAL" property="amount" />
+    <result column="ORIBATCHID" jdbcType="VARCHAR" property="oribatchid" />
+    <result column="PYERACCTID" jdbcType="VARCHAR" property="pyeracctid" />
+    <result column="PYERACCTTP" jdbcType="VARCHAR" property="pyeraccttp" />
+    <result column="DBTRBANKID" jdbcType="VARCHAR" property="dbtrbankid" />
+    <result column="CDTRBANKID" jdbcType="VARCHAR" property="cdtrbankid" />
+    <result column="INSTGID" jdbcType="VARCHAR" property="instgid" />
+    <result column="LMTCREDIT" jdbcType="VARCHAR" property="lmtcredit" />
+    <result column="TRXDTTM" jdbcType="VARCHAR" property="trxdttm" />
+    <result column="TRXFINISHTM" jdbcType="VARCHAR" property="trxfinishtm" />
+    <result column="BIZ_TYPE" jdbcType="VARCHAR" property="bizType" />
+    <result column="IDC" jdbcType="VARCHAR" property="idc" />
+    <result column="NOTIFY_URL" jdbcType="VARCHAR" property="notifyUrl" />
+    <result column="GOODSSHORTNAME" jdbcType="VARCHAR" property="goodsshortname" />
+    <result column="DISCARD_TIME" jdbcType="TIMESTAMP" property="discardTime" />
+    <result column="ORDERDESC" jdbcType="VARCHAR" property="orderdesc" />
+    <result column="SYS_CODE" jdbcType="VARCHAR" property="sysCode" />
+    <result column="SYS_MESSAGE" jdbcType="VARCHAR" property="sysMessage" />
+    <result column="BIZ_CODE" jdbcType="VARCHAR" property="bizCode" />
+    <result column="BIZ_MESSAGE" jdbcType="VARCHAR" property="bizMessage" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <insert id="insert" parameterType="generate.EpccQrcOrderRel">
+    insert into EPCC_QRC_ORDER_REL (ID, TRANS_ID, CHANNEL_TRANS, 
+      ORI_TRANS_ID, "STATUS", ACCOUNT_ORG_ID, 
+      MER_NO, MERORDERID, MER_TYPE, 
+      QR_CODE, QR_TYPE, TRANS_TYPE, 
+      AMOUNT, ORIBATCHID, PYERACCTID, 
+      PYERACCTTP, DBTRBANKID, CDTRBANKID, 
+      INSTGID, LMTCREDIT, TRXDTTM, 
+      TRXFINISHTM, BIZ_TYPE, IDC, 
+      NOTIFY_URL, GOODSSHORTNAME, DISCARD_TIME, 
+      ORDERDESC, SYS_CODE, SYS_MESSAGE, 
+      BIZ_CODE, BIZ_MESSAGE, CREATE_TIME, 
+      UPDATE_TIME)
+    values (#{id,jdbcType=DECIMAL}, #{transId,jdbcType=VARCHAR}, #{channelTrans,jdbcType=VARCHAR}, 
+      #{oriTransId,jdbcType=VARCHAR}, #{status,jdbcType=VARCHAR}, #{accountOrgId,jdbcType=VARCHAR}, 
+      #{merNo,jdbcType=VARCHAR}, #{merorderid,jdbcType=VARCHAR}, #{merType,jdbcType=VARCHAR}, 
+      #{qrCode,jdbcType=VARCHAR}, #{qrType,jdbcType=VARCHAR}, #{transType,jdbcType=VARCHAR}, 
+      #{amount,jdbcType=DECIMAL}, #{oribatchid,jdbcType=VARCHAR}, #{pyeracctid,jdbcType=VARCHAR}, 
+      #{pyeraccttp,jdbcType=VARCHAR}, #{dbtrbankid,jdbcType=VARCHAR}, #{cdtrbankid,jdbcType=VARCHAR}, 
+      #{instgid,jdbcType=VARCHAR}, #{lmtcredit,jdbcType=VARCHAR}, #{trxdttm,jdbcType=VARCHAR}, 
+      #{trxfinishtm,jdbcType=VARCHAR}, #{bizType,jdbcType=VARCHAR}, #{idc,jdbcType=VARCHAR}, 
+      #{notifyUrl,jdbcType=VARCHAR}, #{goodsshortname,jdbcType=VARCHAR}, #{discardTime,jdbcType=TIMESTAMP}, 
+      #{orderdesc,jdbcType=VARCHAR}, #{sysCode,jdbcType=VARCHAR}, #{sysMessage,jdbcType=VARCHAR}, 
+      #{bizCode,jdbcType=VARCHAR}, #{bizMessage,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, 
+      #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="generate.EpccQrcOrderRel">
+    insert into EPCC_QRC_ORDER_REL
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        ID,
+      </if>
+      <if test="transId != null">
+        TRANS_ID,
+      </if>
+      <if test="channelTrans != null">
+        CHANNEL_TRANS,
+      </if>
+      <if test="oriTransId != null">
+        ORI_TRANS_ID,
+      </if>
+      <if test="status != null">
+        "STATUS",
+      </if>
+      <if test="accountOrgId != null">
+        ACCOUNT_ORG_ID,
+      </if>
+      <if test="merNo != null">
+        MER_NO,
+      </if>
+      <if test="merorderid != null">
+        MERORDERID,
+      </if>
+      <if test="merType != null">
+        MER_TYPE,
+      </if>
+      <if test="qrCode != null">
+        QR_CODE,
+      </if>
+      <if test="qrType != null">
+        QR_TYPE,
+      </if>
+      <if test="transType != null">
+        TRANS_TYPE,
+      </if>
+      <if test="amount != null">
+        AMOUNT,
+      </if>
+      <if test="oribatchid != null">
+        ORIBATCHID,
+      </if>
+      <if test="pyeracctid != null">
+        PYERACCTID,
+      </if>
+      <if test="pyeraccttp != null">
+        PYERACCTTP,
+      </if>
+      <if test="dbtrbankid != null">
+        DBTRBANKID,
+      </if>
+      <if test="cdtrbankid != null">
+        CDTRBANKID,
+      </if>
+      <if test="instgid != null">
+        INSTGID,
+      </if>
+      <if test="lmtcredit != null">
+        LMTCREDIT,
+      </if>
+      <if test="trxdttm != null">
+        TRXDTTM,
+      </if>
+      <if test="trxfinishtm != null">
+        TRXFINISHTM,
+      </if>
+      <if test="bizType != null">
+        BIZ_TYPE,
+      </if>
+      <if test="idc != null">
+        IDC,
+      </if>
+      <if test="notifyUrl != null">
+        NOTIFY_URL,
+      </if>
+      <if test="goodsshortname != null">
+        GOODSSHORTNAME,
+      </if>
+      <if test="discardTime != null">
+        DISCARD_TIME,
+      </if>
+      <if test="orderdesc != null">
+        ORDERDESC,
+      </if>
+      <if test="sysCode != null">
+        SYS_CODE,
+      </if>
+      <if test="sysMessage != null">
+        SYS_MESSAGE,
+      </if>
+      <if test="bizCode != null">
+        BIZ_CODE,
+      </if>
+      <if test="bizMessage != null">
+        BIZ_MESSAGE,
+      </if>
+      <if test="createTime != null">
+        CREATE_TIME,
+      </if>
+      <if test="updateTime != null">
+        UPDATE_TIME,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=DECIMAL},
+      </if>
+      <if test="transId != null">
+        #{transId,jdbcType=VARCHAR},
+      </if>
+      <if test="channelTrans != null">
+        #{channelTrans,jdbcType=VARCHAR},
+      </if>
+      <if test="oriTransId != null">
+        #{oriTransId,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="accountOrgId != null">
+        #{accountOrgId,jdbcType=VARCHAR},
+      </if>
+      <if test="merNo != null">
+        #{merNo,jdbcType=VARCHAR},
+      </if>
+      <if test="merorderid != null">
+        #{merorderid,jdbcType=VARCHAR},
+      </if>
+      <if test="merType != null">
+        #{merType,jdbcType=VARCHAR},
+      </if>
+      <if test="qrCode != null">
+        #{qrCode,jdbcType=VARCHAR},
+      </if>
+      <if test="qrType != null">
+        #{qrType,jdbcType=VARCHAR},
+      </if>
+      <if test="transType != null">
+        #{transType,jdbcType=VARCHAR},
+      </if>
+      <if test="amount != null">
+        #{amount,jdbcType=DECIMAL},
+      </if>
+      <if test="oribatchid != null">
+        #{oribatchid,jdbcType=VARCHAR},
+      </if>
+      <if test="pyeracctid != null">
+        #{pyeracctid,jdbcType=VARCHAR},
+      </if>
+      <if test="pyeraccttp != null">
+        #{pyeraccttp,jdbcType=VARCHAR},
+      </if>
+      <if test="dbtrbankid != null">
+        #{dbtrbankid,jdbcType=VARCHAR},
+      </if>
+      <if test="cdtrbankid != null">
+        #{cdtrbankid,jdbcType=VARCHAR},
+      </if>
+      <if test="instgid != null">
+        #{instgid,jdbcType=VARCHAR},
+      </if>
+      <if test="lmtcredit != null">
+        #{lmtcredit,jdbcType=VARCHAR},
+      </if>
+      <if test="trxdttm != null">
+        #{trxdttm,jdbcType=VARCHAR},
+      </if>
+      <if test="trxfinishtm != null">
+        #{trxfinishtm,jdbcType=VARCHAR},
+      </if>
+      <if test="bizType != null">
+        #{bizType,jdbcType=VARCHAR},
+      </if>
+      <if test="idc != null">
+        #{idc,jdbcType=VARCHAR},
+      </if>
+      <if test="notifyUrl != null">
+        #{notifyUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="goodsshortname != null">
+        #{goodsshortname,jdbcType=VARCHAR},
+      </if>
+      <if test="discardTime != null">
+        #{discardTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="orderdesc != null">
+        #{orderdesc,jdbcType=VARCHAR},
+      </if>
+      <if test="sysCode != null">
+        #{sysCode,jdbcType=VARCHAR},
+      </if>
+      <if test="sysMessage != null">
+        #{sysMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="bizCode != null">
+        #{bizCode,jdbcType=VARCHAR},
+      </if>
+      <if test="bizMessage != null">
+        #{bizMessage,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+</mapper>

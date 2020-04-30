@@ -14,9 +14,19 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    <!--版本管理-->
 
     <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
 
         <!--spring-->
         <dependency>
@@ -44,7 +54,6 @@
             <artifactId>spring-tx</artifactId>
             <version>5.2.2.RELEASE</version>
         </dependency>
-
 
 
         <!--dubbo-->

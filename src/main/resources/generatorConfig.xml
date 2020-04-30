@@ -47,7 +47,7 @@
 
         <!--<table tableName="cps_settlement_exchange"/>-->
 
-        <table tableName="cps_settlement_exchange" enableCountByExample="false"
+        <table tableName="CPS_DECLARE_PORT" enableCountByExample="false"
                enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false"/>
 
