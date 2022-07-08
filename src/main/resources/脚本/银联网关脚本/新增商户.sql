@@ -1,73 +1,116 @@
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11563','银联',null,null,null,'Y',null,11563,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_gzkty',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_gzkty','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11564','银联',null,null,null,'Y',null,11564,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_gzmz',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_gzmz','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11565','银联',null,null,null,'Y',null,11565,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_hshy',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_hshy','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11566','银联',null,null,null,'Y',null,11566,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_jnqy',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_jnqy','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11567','银联',null,null,null,'Y',null,11567,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_shgy',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_shgy','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11568','银联',null,null,null,'Y',null,11568,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_shhy',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_shhy','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11569','银联',null,null,null,'Y',null,11569,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_gxhb',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_gxhb','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11570','银联',null,null,null,'Y',null,11570,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_shwh',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_shwh','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11571','银联',null,null,null,'Y',null,11571,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_bdkl',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_bdkl','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11572','银联',null,null,null,'Y',null,11572,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_akss',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_akss','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11573','银联',null,null,null,'Y',null,11573,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_eed',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_eed','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11574','银联',null,null,null,'Y',null,11574,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_jykj',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_jykj','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11575','银联',null,null,null,'Y',null,11575,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_jhsm',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_jhsm','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11576','银联',null,null,null,'Y',null,11576,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_ldq',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_ldq','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11577','银联',null,null,null,'Y',null,11577,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_qsmy',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_qsmy','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11578','银联',null,null,null,'Y',null,11578,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_srkj',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_srkj','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11579','银联',null,null,null,'Y',null,11579,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_hwsm',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_hwsm','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11580','银联',null,null,null,'Y',null,11580,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_swjc',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_swjc','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11581','银联',null,null,null,'Y',null,11581,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_a_yjjz',null,null,null,1,0,7000,100,'b2c_i_chinapay_a_yjjz','0',null,null,null);
-
-
-
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11582','银联',null,null,null,'Y',null,11582,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_bdyy',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_bdyy','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11583','银联',null,null,null,'Y',null,11583,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_bdzc',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_bdzc','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11584','银联',null,null,null,'Y',null,11584,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_cywl',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_cywl','0',null,null,null);
-
-
-
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11615','银联',null,null,null,'Y',null,11615,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_cdtyjr',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_cdtyjr','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11616','银联',null,null,null,'Y',null,11616,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_hbdljc',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_hbdljc','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11617','银联',null,null,null,'Y',null,11617,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_cqjysm',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_cqjysm','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11618','银联',null,null,null,'Y',null,11618,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_cqqlsm',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_cqqlsm','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11619','银联',null,null,null,'Y',null,11619,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_cqhykj',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_cqhykj','0',null,null,null);
-
-
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11642','银联',null,null,null,'Y',null,11642,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_szbdjc',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_szbdjc','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11643','银联',null,null,null,'Y',null,11643,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_szzzsm',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_szzzsm','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11644','银联',null,null,null,'Y',null,11644,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_xaajxmy',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_xaajxmy','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11645','银联',null,null,null,'Y',null,11645,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_xanwmy',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_xanwmy','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11646','银联',null,null,null,'Y',null,11646,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_xaszy',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_xaszy','0',null,null,null);
-
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11719','银联',null,null,null,'Y',null,11719,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_ncxxrd',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_ncxxrd','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11720','银联',null,null,null,'Y',null,11720,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_ncqtsm',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_ncqtsm','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11721','银联',null,null,null,'Y',null,11721,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_cdalbl',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_cdalbl','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11722','银联',null,null,null,'Y',null,11722,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_cdfsw',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_cdfsw','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11723','银联',null,null,null,'Y',null,11723,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_czdgsm',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_czdgsm','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11724','银联',null,null,null,'Y',null,11724,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_cqgms',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_cqgms','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11725','银联',null,null,null,'Y',null,11725,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_cdfxy',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_cdfxy','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11726','银联',null,null,null,'Y',null,11726,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_gcyrsm',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_gcyrsm','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11727','银联',null,null,null,'Y',null,11727,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_qdlkf',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_qdlkf','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11728','银联',null,null,null,'Y',null,11728,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_sxexq',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_sxexq','0',null,null,null);
-
-
-
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11729','银联',null,null,null,'Y',null,11729,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_jxgbsm',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_jxgbsm','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11730','银联',null,null,null,'Y',null,11730,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_bjxwp',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_bjxwp','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11731','银联',null,null,null,'Y',null,11731,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_gzlzdz',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_gzlzdz','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11732','银联',null,null,null,'Y',null,11732,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_gzbcj',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_gzbcj','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11733','银联',null,null,null,'Y',null,11733,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_sxhzwl',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_sxhzwl','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11734','银联',null,null,null,'Y',null,11734,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_hnkmc',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_hnkmc','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11735','银联',null,null,null,'Y',null,11735,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_hnycwj',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_hnycwj','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11736','银联',null,null,null,'Y',null,11736,null,'admin',sysdate,'admin',sysdate,'b2c_i_chinapay_d_hzscc',null,null,null,1,0,7000,100,'b2c_i_chinapay_d_hzscc','0',null,null,null);
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11737','银联',null,null,null,'Y',null,11737,null,'admin',sysdate,'admin',sysdate,'b2c_i_unionpay_cq_d_gzjjc',null,null,null,1,0,7000,100,'b2c_i_unionpay_cq_d_gzjjc','0',null,null,null);
-
-
-
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11739','重庆银联',null,null,null,'Y',null,11739,null,'admin',sysdate,'admin',sysdate,'b2c_i_cq_chinapay',null,null,null,1,0,null,100,'b2c_i_cq_chinapay','0',null,null,null);
-
-
-
-insert into vnv.bank_info (BANK_ID, BANK_NAME, BANK_DESC, BANK_ADDRESS, NET_BANK_URL, VALID_FLAG, REMARK, ID, VERSION, CREATE_USER, CREATE_TIME, UPDATE_USER, UPDATE_TIME, BANK_CODE, TEL_BANK_URL, TEL_BANK_NO, MOBILE_BANK_URL, SUPPORTED, EXCEPTIONAL, BANK_GROUP, PRI, LINK_CODE, DRAW_BANK, SETTLEMENT_TIME, CARD_TYPE, ISBANK) values('11738','兴业银行',null,null,null,'Y',null,11738,null,'admin',sysdate,'admin',sysdate,'cib_NetsUnion_c',null,null,null,1,0,5378,100,'cib','0',null,null,null);
-
-
+10049703
+10049698
+10049620
+10049300
+10049291
+10049277
+10049271
+10049205
+10049095
+10049042
+10049035
+10049034
+10049013
+10048885
+10048883
+10048870
+10048861
+10048859
+10048842
+10048832
+10048830
+10048826
+10048792
+10048789
+10048772
+10048770
+10048693
+10048691
+10048597
+10048386
+10048357
+10048326
+10048323
+10048322
+10048318
+10048288
+10048286
+10048276
+10048270
+10048267
+10048258
+10048256
+10048234
+10048226
+10048222
+10048201
+10048199
+10048195
+10048125
+10048123
+10048087
+10048079
+10048077
+10048064
+10048063
+10048056
+10047984
+10047804
+10047655
+10047289
+10047285
+10047276
+10047267
+10047245
+10047243
+10047224
+10047102
+10047100
+10047084
+10047066
+10047045
+10046833
+10046816
+10046450
+10046439
+10046307
+10046209
+10046208
+10046198
+10046195
+10046185
+10046180
+10046156
+10046134
+10046118
+10045839
+10045823
+10045787
+10045741
+10045721
+10045686
+10045684
+10045680
+10045581
+10045528
+10045486
+10045480
+10045472
+10045470
+10045463
+10045459
+10045404
+10045251
+10045249
+10045247
+10045243
+10045241
+10045234
+10045136
+10045061
+10045045
+10045043
+10044747
+10044745
+10044743
+10044433

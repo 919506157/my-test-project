@@ -1,26 +1,116 @@
-insert into vnv.bank_info (BANK_ID,BANK_NAME,BANK_DESC,BANK_ADDRESS,NET_BANK_URL,VALID_FLAG,REMARK,ID,VERSION,CREATE_USER,CREATE_TIME,UPDATE_USER,UPDATE_TIME,BANK_CODE,TEL_BANK_URL,TEL_BANK_NO,MOBILE_BANK_URL,SUPPORTED,EXCEPTIONAL,BANK_GROUP,PRI,LINK_CODE,DRAW_BANK,SETTLEMENT_TIME,CARD_TYPE) values('11232','农业银行','','','','Y','',11232,null,'admin',sysdate,'admin',sysdate,'abc_q_chinapay_order_rz_c','','','',1,0,'11231',100,'abc','0','','');
-
-'','ceb_q_unionpay_nfq_d_ec'   ,
-'','icbc_q_unionpay_nfq_d_ec'  ,
-'','abc_q_unionpay_nfq_d_ec'   ,
-'','boc_q_unionpay_nfq_d_ec'   ,
-'','ccb_q_unionpay_nfq_d_ec'   ,
-'','psbc_q_unionpay_nfq_d_ec'  ,
-'','cib_q_unionpay_nfq_d_ec'   ,
-'','cncb_q_unionpay_nfq_d_ec'  ,
-'','comm_q_unionpay_nfq_d_ec'  ,
-'','spdb_q_unionpay_nfq_d_ec'  ,
-'','bosh_q_unionpay_nfq_d_ec'  ,
-'','pingan_q_unionpay_nfq_d_ec',
-'','ceb_q_unionpay_nfq_d'      ,
-'','icbc_q_unionpay_nfq_d'     ,
-'','abc_q_unionpay_nfq_d'      ,
-'','boc_q_unionpay_nfq_d'      ,
-'','ccb_q_unionpay_nfq_d'      ,
-'','psbc_q_unionpay_nfq_d'     ,
-'','cib_q_unionpay_nfq_d'      ,
-'','cncb_q_unionpay_nfq_d'     ,
-'','comm_q_unionpay_nfq_d'     ,
-'','spdb_q_unionpay_nfq_d'     ,
-'','bosh_q_unionpay_nfq_d'     ,
-'','pingan_q_unionpay_nfq_d'   ,
+update t_upload_file set file_url = 'lij0UPL_DAfwH4fCNsAC7_N9m7WA.mp4'  where file_id = 10049703;
+update t_upload_file set file_url = 'lliJGCqbfL21RBN7ETgwwmaJ1j3q.mp4'  where file_id = 10049698;
+update t_upload_file set file_url = 'FsWMdlIHM2V-0CACeIlQh-n7dW83.mp4'  where file_id = 10049620;
+update t_upload_file set file_url = 'lt5ouMofbVgbxoE8PRNIVgMG0Uza.mp4'  where file_id = 10049300;
+update t_upload_file set file_url = 'lg70VTMEenteNC2b3nRaxWmYYS5i.mp4'  where file_id = 10049291;
+update t_upload_file set file_url = 'lsevs9wE2ZpDrV6gxn2UyRtMNoOe.mp4'  where file_id = 10049277;
+update t_upload_file set file_url = 'llJmY0rIcDXIZB9Vzt0M8PfIXMjy.mp4'  where file_id = 10049271;
+update t_upload_file set file_url = 'lpIg1ffLCRyTmmMm2BECFK0sewgk.mp4'  where file_id = 10049205;
+update t_upload_file set file_url = 'lsMebeoMufC1DsV0JZCxBDUiaF3-.mp4'  where file_id = 10049095;
+update t_upload_file set file_url = 'lo5TteoEmCb0v2_WVrdPcPzBB2If.mp4'  where file_id = 10049042;
+update t_upload_file set file_url = 'llOTNXwmJZUiFckHCmHbGqTP6rl3.mp4'  where file_id = 10049035;
+update t_upload_file set file_url = 'llmQeMdMrRKA01CkhtAdi94I9fsE.mp4'  where file_id = 10049034;
+update t_upload_file set file_url = 'ltMhXQ-ZPxxZyq-vFkF6wSmwvEW2.mp4'  where file_id = 10049013;
+update t_upload_file set file_url = 'lkII2w7qLEx7j5rEfQZ_Z3jYj2W3.mp4'  where file_id = 10048885;
+update t_upload_file set file_url = 'lqftDZEsFy-VVe0K-tfXuR_zj0fc.mp4'  where file_id = 10048883;
+update t_upload_file set file_url = 'lkvs8uJSgSJwFyTs3_dLzmv9Z6nL.mp4'  where file_id = 10048870;
+update t_upload_file set file_url = 'lmk2UyTHl66ylS-zEPzzqHneAg12.mp4'  where file_id = 10048861;
+update t_upload_file set file_url = 'lmk2UyTHl66ylS-zEPzzqHneAg12.mp4'  where file_id = 10048859;
+update t_upload_file set file_url = 'liZueLfszUsHmlC6kl3158p3XNIo.mp4'  where file_id = 10048842;
+update t_upload_file set file_url = 'lrvB0Nba96vi1_dzVKAREPbI5dCf.mp4'  where file_id = 10048832;
+update t_upload_file set file_url = 'lk7aISUEzQRvcUik5HpAUTQZkDkO.mp4'  where file_id = 10048830;
+update t_upload_file set file_url = 'luiEYsrCMN0X3QTyrfcWZph2_fOU.mp4'  where file_id = 10048826;
+update t_upload_file set file_url = 'lvZDxLNpp9ZCxJD6GN-ziABAT3vT.mp4'  where file_id = 10048792;
+update t_upload_file set file_url = 'ljlXiZEimyohLIoTM7qLJbDZlk4p.mp4'  where file_id = 10048789;
+update t_upload_file set file_url = 'lqravZ-YVgQ2DB8sY9oahCcQzM9Z.mp4'  where file_id = 10048772;
+update t_upload_file set file_url = 'lkGkXICt50CJ0To22xu4txLkyYfk.mp4'  where file_id = 10048770;
+update t_upload_file set file_url = 'lgW7asjL6p2F_dVQJvCffNCGLN9b.mp4'  where file_id = 10048693;
+update t_upload_file set file_url = 'lkJ_vCnyH396D2GNikbLMVtBxyjW.mp4'  where file_id = 10048691;
+update t_upload_file set file_url = 'ljr9unGr50LXuhAoB8fOZdvWN0Rd.mp4'  where file_id = 10048597;
+update t_upload_file set file_url = 'Fiawen2acxwS03mKRTAVsyq-UBep.mp4'  where file_id = 10048386;
+update t_upload_file set file_url = 'lip2K9hL1KPUOTv8hZapH-6hK-8w.mp4'  where file_id = 10048357;
+update t_upload_file set file_url = 'lmA1RV0G5fh1HV4ktoDLQVA1s0tn.mp4'  where file_id = 10048326;
+update t_upload_file set file_url = 'lsAUAXblXigTFU90hQwmepzSY8gM.mp4'  where file_id = 10048323;
+update t_upload_file set file_url = 'lsAUAXblXigTFU90hQwmepzSY8gM.mp4'  where file_id = 10048322;
+update t_upload_file set file_url = 'lp3z8ZQ-j-0-MB5r6QVi0GPcqhLT.mp4'  where file_id = 10048318;
+update t_upload_file set file_url = 'lj36Civkl-w1eyTtoK7kNiZAHt27.mp4'  where file_id = 10048288;
+update t_upload_file set file_url = 'lkgF89v_1RMtWiJrFCBh8Oxbduvn.mp4'  where file_id = 10048286;
+update t_upload_file set file_url = 'lllS-xjRl1e6j4-olQsL8SVQMyZj.mp4'  where file_id = 10048276;
+update t_upload_file set file_url = 'lvwy0nxOYOGfcIwZhDGC0FLOhtoX.mp4'  where file_id = 10048270;
+update t_upload_file set file_url = 'ltbVx_MM4ZFhPimU9rFL7615IEIh.mp4'  where file_id = 10048267;
+update t_upload_file set file_url = 'lmMRhqBPV9iii_T8iKfJlMCAV-9M.mp4'  where file_id = 10048258;
+update t_upload_file set file_url = 'luC-woMzEFRYkB-m8Cswml32HM1L.mp4'  where file_id = 10048256;
+update t_upload_file set file_url = 'lq-2RPQQeIeJg4uAfGYcWnnaPt3W.mp4'  where file_id = 10048234;
+update t_upload_file set file_url = 'lrb5sdDjkubn1mxRdxNIXloW_COq.mp4'  where file_id = 10048226;
+update t_upload_file set file_url = 'lg6oTel8njy49P6YiTth2ZDjpSyD.mp4'  where file_id = 10048222;
+update t_upload_file set file_url = 'ljzKOej0OM2VfD3Frh6RQD9ha0fa.mp4'  where file_id = 10048201;
+update t_upload_file set file_url = 'lse_V_HrBKY3hcRYLwVcszsCaWX_.mp4'  where file_id = 10048199;
+update t_upload_file set file_url = 'ljYYxLFCqUOazgBhUm4Z3dR70Dck.mp4'  where file_id = 10048195;
+update t_upload_file set file_url = 'llhza5Lx5aQ_DZKsG7LaZu--CmVQ.mp4'  where file_id = 10048125;
+update t_upload_file set file_url = 'llhza5Lx5aQ_DZKsG7LaZu--CmVQ.mp4'  where file_id = 10048123;
+update t_upload_file set file_url = 'lreWBJ5PDGz-MrxJ_t4nkr9-WRfY.mp4'  where file_id = 10048087;
+update t_upload_file set file_url = 'lheU305t2BDWSTLPbWIaiYXwYc5K.mp4'  where file_id = 10048079;
+update t_upload_file set file_url = 'lu0WmTBeUfcVuEFcAE2LsZaJcHe8.mp4'  where file_id = 10048077;
+update t_upload_file set file_url = 'lmA1RV0G5fh1HV4ktoDLQVA1s0tn.mp4'  where file_id = 10048064;
+update t_upload_file set file_url = 'llhza5Lx5aQ_DZKsG7LaZu--CmVQ.mp4'  where file_id = 10048063;
+update t_upload_file set file_url = 'lh1A8GY-XvsIH31mU0uM0z-vs36w.mp4'  where file_id = 10048056;
+update t_upload_file set file_url = 'lkNAQLCvoVaOwJBiZRfxcpKLxrBP.mp4'  where file_id = 10047984;
+update t_upload_file set file_url = 'lrDuDu6pS6VZTKOFMq9Wlja2S5Gt.mp4'  where file_id = 10047804;
+update t_upload_file set file_url = 'lkYlsyTiZjGkEnq7PAeRgsnSGkWq.mp4'  where file_id = 10047655;
+update t_upload_file set file_url = 'llO7YdzSx7Gi60O5Y0njZmjuihZu.mp4'  where file_id = 10047289;
+update t_upload_file set file_url = 'lvDq0o2rsaRCwHyX7xS3L1Icpx9m.mp4'  where file_id = 10047285;
+update t_upload_file set file_url = 'lq8ZotpZ9469JkK7whqSyCOoDNA9.mp4'  where file_id = 10047276;
+update t_upload_file set file_url = 'lhhfgZqjqn_KuL2Uc-Z4tOfCC76q.mp4'  where file_id = 10047267;
+update t_upload_file set file_url = 'lpHyAYZ7VGc_ZySIkFHw1hiDK507.mp4'  where file_id = 10047245;
+update t_upload_file set file_url = 'lpEVg6rXIPhLxh8hVL0LLJ59KIqC.mp4'  where file_id = 10047243;
+update t_upload_file set file_url = 'lhGggqpoo-4d156ivp3c68_4L4kN.mp4'  where file_id = 10047224;
+update t_upload_file set file_url = 'ltEcQD9t4AC5L44GXNlxFZm8mcUn.mp4'  where file_id = 10047102;
+update t_upload_file set file_url = 'luO5GzsdvEE3fUGwuIvcHzSJlbdi.mp4'  where file_id = 10047100;
+update t_upload_file set file_url = 'llYltsXbvhAuudLJBd0iv7P69fum.mp4'  where file_id = 10047084;
+update t_upload_file set file_url = 'lsxkgEcqyb-HVnvgmzAWn8mGv8IM.mp4'  where file_id = 10047066;
+update t_upload_file set file_url = 'lmRa-BtUCyrG6CdJErtaFhr5wTVU.mp4'  where file_id = 10047045;
+update t_upload_file set file_url = 'lmUXhs4GwGDa4-7q9_ETbiJGif6I.mp4'  where file_id = 10046833;
+update t_upload_file set file_url = 'liI4IFLy-mc1PhyrGqkL-6o87tEE.mp4'  where file_id = 10046816;
+update t_upload_file set file_url = 'lg77eR7jeX5AxA67BJVhcnKF5swF.mp4'  where file_id = 10046450;
+update t_upload_file set file_url = 'lhQypSOt_5bCd9rRTf9y4Cmn74Hi.mp4'  where file_id = 10046439;
+update t_upload_file set file_url = 'ligTuElBrqdYCzVhcyZXWhWMlXFp.mp4'  where file_id = 10046307;
+update t_upload_file set file_url = 'lj5dsbmvwreHTnyqUAoi3gXGMmZG.mp4'  where file_id = 10046209;
+update t_upload_file set file_url = 'lpyWgANYzt79UczodwRODfwEI4fl.mp4'  where file_id = 10046208;
+update t_upload_file set file_url = 'luD7rCQs4pB91iuajxFofvOoJMXa.mp4'  where file_id = 10046198;
+update t_upload_file set file_url = 'lmjqZJjUNFpXOx6zDVY7O_HQip_K.mp4'  where file_id = 10046195;
+update t_upload_file set file_url = 'lgfm-WbtOhXyh4-0WIfmGwwtWkRI.mp4'  where file_id = 10046185;
+update t_upload_file set file_url = 'lqlJtvphEtLs_mSOD-dKeg92FfjQ.mp4'  where file_id = 10046180;
+update t_upload_file set file_url = 'lqYygmGnMxBB47qnWmqV5Ar-Ogn5.mp4'  where file_id = 10046156;
+update t_upload_file set file_url = 'lswuNbNE04I5lWirPOznqvfOlyUC.mp4'  where file_id = 10046134;
+update t_upload_file set file_url = 'lqYygmGnMxBB47qnWmqV5Ar-Ogn5.mp4'  where file_id = 10046118;
+update t_upload_file set file_url = 'lgTsty_SG5upWej7VnaE340E7e92.mp4'  where file_id = 10045839;
+update t_upload_file set file_url = 'lrPvos-b-0kmzMxiIzF0ThnLss19.mp4'  where file_id = 10045823;
+update t_upload_file set file_url = 'lr1-_ku-c21GnsX9ETMxyjT7JXPe.mp4'  where file_id = 10045787;
+update t_upload_file set file_url = 'lkz7I1L4E1ERPGeZauNXJtj3Af9d.mp4'  where file_id = 10045741;
+update t_upload_file set file_url = 'lhkybIZ8LSMVrzVb8IDIsCBGb8ER.mp4'  where file_id = 10045721;
+update t_upload_file set file_url = 'liKaW7mP-N9-fqv89lxPD_FdvT_x.mp4'  where file_id = 10045686;
+update t_upload_file set file_url = 'lvVHKVyvWkshx8mvtiHD9zpzTvN9.mp4'  where file_id = 10045684;
+update t_upload_file set file_url = 'lozm2lpg77cY0gGQqQgFDvlwVHdK.mp4'  where file_id = 10045680;
+update t_upload_file set file_url = 'lm96HB8I5464sNt8HD2ZeotTFiDo.mp4'  where file_id = 10045581;
+update t_upload_file set file_url = 'lm96HB8I5464sNt8HD2ZeotTFiDo.mp4'  where file_id = 10045528;
+update t_upload_file set file_url = 'lknjWrOfa08gEdfzoqOYIL7GWh7g.mp4'  where file_id = 10045486;
+update t_upload_file set file_url = 'lnCqwLuev4H4htbJuEsbXS3j27LS.mp4'  where file_id = 10045480;
+update t_upload_file set file_url = 'lt14LvwTAj8x6EFqsK-LI9xIFg_P.mp4'  where file_id = 10045472;
+update t_upload_file set file_url = 'lvryMNPUARXgXBEjI64azDIREoWG.mp4'  where file_id = 10045470;
+update t_upload_file set file_url = 'lipB6AnP0rMM7GNdjfm2rT52VBcT.mp4'  where file_id = 10045463;
+update t_upload_file set file_url = 'lqy53lnd6mfwQHWlcI4-5biOsrgZ.mp4'  where file_id = 10045459;
+update t_upload_file set file_url = 'lpxwagEGkJXD0xFWpv1Z2IbdHsFd.mp4'  where file_id = 10045404;
+update t_upload_file set file_url = 'lun5oRj7kHPHDgb5IbH-Eb4HGRZB.mp4'  where file_id = 10045251;
+update t_upload_file set file_url = 'lvl-AIv923s7JPi65KrvkTD3G1r4.mp4'  where file_id = 10045249;
+update t_upload_file set file_url = 'lvl-AIv923s7JPi65KrvkTD3G1r4.mp4'  where file_id = 10045247;
+update t_upload_file set file_url = 'lvWS1MUi9Dyo0v_M3Lt_8bqKCrJB.mp4'  where file_id = 10045243;
+update t_upload_file set file_url = 'lvWS1MUi9Dyo0v_M3Lt_8bqKCrJB.mp4'  where file_id = 10045241;
+update t_upload_file set file_url = 'lnVny6NgkIUl65pQla8mLwaDTIdW.mp4'  where file_id = 10045234;
+update t_upload_file set file_url = 'luEqRyKt6iy58bTJqOfsMcrKZq1D.mp4'  where file_id = 10045136;
+update t_upload_file set file_url = 'lp7BWx3_maJDvyDZLe50MAwhB6EA.mp4'  where file_id = 10045061;
+update t_upload_file set file_url = 'lsNXOs0VJmA49NpCGkkIpefbIjzx.mp4'  where file_id = 10045045;
+update t_upload_file set file_url = 'lqJPg4Y9zV3Tk4cq_ULnpMCjJKwj.mp4'  where file_id = 10045043;
+update t_upload_file set file_url = 'lnaMH5n_CnhTUnvbiVhpfogl75N3.mp4'  where file_id = 10044747;
+update t_upload_file set file_url = 'ls0HBrKuQBg8XsDCHGTDyo-4RE6F.mp4'  where file_id = 10044745;
+update t_upload_file set file_url = 'lgsO-GpThzLSd58ul0TaUN7gEj_O.mp4'  where file_id = 10044743;
+update t_upload_file set file_url = 'lvaMasHBiwBGa8sXytI5vzHzdrhv.mp4'  where file_id = 10044433;

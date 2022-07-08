@@ -38,10 +38,7 @@ comment on column T_LIVE_ACCOUNT.update_time
 alter table T_LIVE_ACCOUNT
   add constraint T_LIVE_ACCOUNT_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_ACCOUNT_CHARGE
-prompt ====================================
-prompt
+
 create table T_LIVE_ACCOUNT_CHARGE
 (
   id                  NUMBER(11) not null,
@@ -85,10 +82,7 @@ comment on column T_LIVE_ACCOUNT_CHARGE.behavior
 alter table T_LIVE_ACCOUNT_CHARGE
   add constraint T_LIVE_ACCOUNT_CHARGE_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_ACCOUNT_FLOW
-prompt ==================================
-prompt
+
 create table T_LIVE_ACCOUNT_FLOW
 (
   id             NUMBER(10) not null,
@@ -131,10 +125,7 @@ comment on column T_LIVE_ACCOUNT_FLOW.biz_order_id
 alter table T_LIVE_ACCOUNT_FLOW
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_CATEGORY
-prompt ==============================
-prompt
+
 create table T_LIVE_CATEGORY
 (
   id            NUMBER(11) not null,
@@ -164,10 +155,7 @@ comment on column T_LIVE_CATEGORY.display_order
 alter table T_LIVE_CATEGORY
   add constraint T_LIVE_CATEGORY_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_CHAT_ROOM
-prompt ===============================
-prompt
+
 create table T_LIVE_CHAT_ROOM
 (
   id             NUMBER(11) not null,
@@ -212,10 +200,7 @@ comment on column T_LIVE_CHAT_ROOM.chat_room_name
 alter table T_LIVE_CHAT_ROOM
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_COMPLAIN
-prompt ==============================
-prompt
+
 create table T_LIVE_COMPLAIN
 (
   id                   NUMBER(10) not null,
@@ -242,10 +227,7 @@ comment on column T_LIVE_COMPLAIN.complain_user_id
 alter table T_LIVE_COMPLAIN
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_COMPLAIN_CATEGORY
-prompt =======================================
-prompt
+
 create table T_LIVE_COMPLAIN_CATEGORY
 (
   id            NUMBER(10) not null,
@@ -267,10 +249,7 @@ comment on column T_LIVE_COMPLAIN_CATEGORY.status
 alter table T_LIVE_COMPLAIN_CATEGORY
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_COMPLAIN_IMG
-prompt ==================================
-prompt
+
 create table T_LIVE_COMPLAIN_IMG
 (
   id          NUMBER(10) not null,
@@ -293,10 +272,7 @@ comment on column T_LIVE_COMPLAIN_IMG.create_time
 alter table T_LIVE_COMPLAIN_IMG
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_FROZEN
-prompt ============================
-prompt
+
 create table T_LIVE_FROZEN
 (
   id                NUMBER(10) not null,
@@ -336,10 +312,7 @@ comment on column T_LIVE_FROZEN.live_instance_id
 alter table T_LIVE_FROZEN
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_GIFT
-prompt ==========================
-prompt
+
 create table T_LIVE_GIFT
 (
   id             NUMBER(11) not null,
@@ -384,10 +357,7 @@ comment on column T_LIVE_GIFT.del_flg
 alter table T_LIVE_GIFT
   add constraint T_LIVE_GIFT_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_GIFT_ORDER
-prompt ================================
-prompt
+
 create table T_LIVE_GIFT_ORDER
 (
   id                NUMBER(11) not null,
@@ -431,10 +401,7 @@ comment on column T_LIVE_GIFT_ORDER.behavior
 alter table T_LIVE_GIFT_ORDER
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_GIFT_RELATION
-prompt ===================================
-prompt
+
 create table T_LIVE_GIFT_RELATION
 (
   id           NUMBER(11) not null,
@@ -459,10 +426,7 @@ comment on column T_LIVE_GIFT_RELATION.status
 alter table T_LIVE_GIFT_RELATION
   add constraint T_LIVE_GIFT_RELATION_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_GIFT_TAG
-prompt ==============================
-prompt
+
 create table T_LIVE_GIFT_TAG
 (
   id       NUMBER(10) not null,
@@ -478,10 +442,7 @@ comment on column T_LIVE_GIFT_TAG.tag_name
 alter table T_LIVE_GIFT_TAG
   add constraint T_LIVE_GIFT_TAG_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_INSTANCE
-prompt ==============================
-prompt
+
 create table T_LIVE_INSTANCE
 (
   id                  NUMBER(11) not null,
@@ -561,10 +522,7 @@ comment on column T_LIVE_INSTANCE.total_gift_senduser
 alter table T_LIVE_INSTANCE
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_INSTANCE_GIFT
-prompt ===================================
-prompt
+
 create table T_LIVE_INSTANCE_GIFT
 (
   id               NUMBER(11) not null,
@@ -596,10 +554,7 @@ comment on column T_LIVE_INSTANCE_GIFT.update_time
 alter table T_LIVE_INSTANCE_GIFT
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_INSTANCE_USER_GIFT
-prompt ========================================
-prompt
+
 create table T_LIVE_INSTANCE_USER_GIFT
 (
   id               NUMBER(10) not null,
@@ -630,10 +585,7 @@ comment on column T_LIVE_INSTANCE_USER_GIFT.update_time
 alter table T_LIVE_INSTANCE_USER_GIFT
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_MODULE
-prompt ============================
-prompt
+
 create table T_LIVE_MODULE
 (
   id                   NUMBER(10) not null,
@@ -679,10 +631,7 @@ comment on column T_LIVE_MODULE.del_flg
 alter table T_LIVE_MODULE
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_MODULE_CATEGORY
-prompt =====================================
-prompt
+
 create table T_LIVE_MODULE_CATEGORY
 (
   id          NUMBER(10) not null,
@@ -706,10 +655,7 @@ comment on column T_LIVE_MODULE_CATEGORY.status
 alter table T_LIVE_MODULE_CATEGORY
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_PROPORTION_CONFIG
-prompt =======================================
-prompt
+
 create table T_LIVE_PROPORTION_CONFIG
 (
   id          NUMBER(11) not null,
@@ -731,10 +677,7 @@ comment on column T_LIVE_PROPORTION_CONFIG.update_time
 alter table T_LIVE_PROPORTION_CONFIG
   add constraint T_LIVE_PROPORTION_CONFIG_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_RECORD
-prompt ============================
-prompt
+
 create table T_LIVE_RECORD
 (
   id                      NUMBER(11) not null,
@@ -797,10 +740,7 @@ comment on column T_LIVE_RECORD.views_num
 alter table T_LIVE_RECORD
   add constraint T_LIVE_RECORD_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_ROOM
-prompt ==========================
-prompt
+
 create table T_LIVE_ROOM
 (
   id                   NUMBER(11) not null,
@@ -872,10 +812,7 @@ comment on column T_LIVE_ROOM.stream_push_url
 alter table T_LIVE_ROOM
   add constraint T_LIVE_ROOM_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_ROOM_ACCOUNT
-prompt ==================================
-prompt
+
 create table T_LIVE_ROOM_ACCOUNT
 (
   id                NUMBER(11) not null,
@@ -903,10 +840,7 @@ comment on column T_LIVE_ROOM_ACCOUNT.status
 alter table T_LIVE_ROOM_ACCOUNT
   add constraint T_LIVE_ROOM_ACCOUNT_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_ROOM_ACCOUNT_SETTLE
-prompt =========================================
-prompt
+
 create table T_LIVE_ROOM_ACCOUNT_SETTLE
 (
   id                  NUMBER(11) not null,
@@ -956,10 +890,7 @@ comment on column T_LIVE_ROOM_ACCOUNT_SETTLE.wait_settle_amount
 alter table T_LIVE_ROOM_ACCOUNT_SETTLE
   add constraint T_LIVE_ROOM_ACCOUNT_SETTLE_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_ROOM_CONFIG
-prompt =================================
-prompt
+
 create table T_LIVE_ROOM_CONFIG
 (
   id                NUMBER(10) not null,
@@ -997,10 +928,7 @@ comment on column T_LIVE_ROOM_CONFIG.time_type
 alter table T_LIVE_ROOM_CONFIG
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_STICKER
-prompt =============================
-prompt
+
 create table T_LIVE_STICKER
 (
   id             NUMBER(10) not null,
@@ -1035,10 +963,7 @@ comment on column T_LIVE_STICKER.status
 alter table T_LIVE_STICKER
   add primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_USER_CHAT_RELATION
-prompt ========================================
-prompt
+
 create table T_LIVE_USER_CHAT_RELATION
 (
   id               NUMBER(11) not null,
@@ -1062,10 +987,7 @@ comment on column T_LIVE_USER_CHAT_RELATION.total_gift_value
 alter table T_LIVE_USER_CHAT_RELATION
   add constraint T_LIVE_USER_CHAT_RELATION_PK primary key (ID);
 
-prompt
-prompt Creating table T_LIVE_VALUE_CONFIG
-prompt ==================================
-prompt
+
 create table T_LIVE_VALUE_CONFIG
 (
   id            NUMBER(11) not null,
