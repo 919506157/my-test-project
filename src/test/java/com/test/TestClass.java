@@ -42,6 +42,7 @@ import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.*;
+import java.util.concurrent.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -54,6 +55,40 @@ public class TestClass {
     public static final DateTimeFormatter yyyyMMdd = DateTimeFormatter.ofPattern("yyyyMMdd");
 
     private static final SimpleDateFormat YYYY_MM_DD_HH_MM_SS = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+
+    private static ExecutorService executorService = Executors.newFixedThreadPool(5);
+
+
+    @Test
+    public void void50() {
+
+    }
+
+    @Test
+    public void test49() {
+        long l = System.nanoTime();
+        System.out.println(l);
+        System.out.println(Thread.currentThread().getName());
+
+        // 提交任务
+        Future<String> future = executorService.submit(() -> {
+            System.out.println(Thread.currentThread().getName());
+            Thread.sleep(2000L);
+            return "success";
+        });
+        try {
+            String s = future.get(1, TimeUnit.SECONDS);
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        } catch (TimeoutException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     @Test
     public void test48() {
@@ -81,7 +116,7 @@ public class TestClass {
         int pageNum = (count + pageSize - 1) / pageSize;
         int pageNum1 = count / pageSize + pageSize / pageSize - 1 / pageSize;
 
-        int a = 1/10;
+        int a = 1 / 10;
         System.out.println(a);
     }
 
@@ -99,6 +134,7 @@ public class TestClass {
         }
 
     }
+
     @Test
     public void test45() {
         UUID share = UUID.randomUUID();
