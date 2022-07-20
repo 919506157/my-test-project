@@ -62,7 +62,15 @@ public class TestClass {
 
     @Test
     public void void50() {
-
+        List<User> userList = new ArrayList();
+        User user = new User("123","ABC");
+        userList.add(user);
+        userList.add(user);
+        System.out.println(userList);
+        System.out.println(JSON.toJSONString(userList));
+        String s = JSON.toJSONString(userList);
+        List<User> users = JSON.parseArray(s, User.class);
+        System.out.println(users);
     }
 
     @Test
