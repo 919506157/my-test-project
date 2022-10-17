@@ -65,10 +65,11 @@ public class TestClass {
         list.add(new User("22", "22"));
         list.add(new User("33", "33"));
 
-        list.stream().forEach(user -> {
+        list.stream().filter(user -> user.getEmail().equals("11")).forEach(user -> {
             user.setEmail(user.getEmail() + "ab");
         });
 
+        System.out.println(JSON.toJSONString(list));
 
     }
 
