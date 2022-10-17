@@ -15,7 +15,6 @@ import javax.xml.crypto.dsig.spec.C14NMethodParameterSpec;
 import javax.xml.crypto.dsig.spec.TransformParameterSpec;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.transform.Source;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
@@ -24,7 +23,6 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.net.*;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
@@ -61,9 +59,23 @@ public class TestClass {
 
 
     @Test
+    public void void51() {
+        List<User> list = new ArrayList<>();
+        list.add(new User("11", "11"));
+        list.add(new User("22", "22"));
+        list.add(new User("33", "33"));
+
+        list.stream().forEach(user -> {
+            user.setEmail(user.getEmail() + "ab");
+        });
+
+
+    }
+
+    @Test
     public void void50() {
         List<User> userList = new ArrayList();
-        User user = new User("123","ABC");
+        User user = new User("123", "ABC");
         userList.add(user);
         userList.add(user);
         System.out.println(userList);
