@@ -1,5 +1,7 @@
 package com.test;
 
+import cn.hutool.core.date.DateTime;
+import cn.hutool.core.date.DateUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.net.ftp.FTPClient;
@@ -38,11 +40,14 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.TemporalAdjusters;
 import java.util.List;
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class TestClass {
     private static final SimpleDateFormat sdfDate = new SimpleDateFormat("yyyyMMdd");
@@ -57,6 +62,43 @@ public class TestClass {
 
     private static ExecutorService executorService = Executors.newFixedThreadPool(5);
 
+    @Test
+    public void void54() {
+        LocalDate now = LocalDate.now();
+
+        LocalDate firstDayOfThisWeek = now.with(DayOfWeek.MONDAY);
+        LocalDate firstDayOfThisMonth = now.with(TemporalAdjusters.firstDayOfMonth());
+
+        LocalDate firstDayOfLastWeek = now.minusWeeks(1).with(DayOfWeek.MONDAY);
+        LocalDate firstDayOfLastMonth = now.minusMonths(1).with(TemporalAdjusters.firstDayOfMonth());
+
+
+
+        System.out.println("");
+    }
+
+    @Test
+    public void void53() {
+        ReentrantLock reentrantLock = new ReentrantLock();
+        reentrantLock.lock();
+
+        StringBuilder stringBuilder = new StringBuilder();
+        System.out.println("111"+stringBuilder.toString());
+
+        ArrayList<String> list = new ArrayList<>();
+        List<String> collect = list.stream().filter(s -> s.equals("1")).collect(Collectors.toList());
+        System.out.println(collect);
+    }
+
+    @Test
+    public void void52() {
+        BigDecimal bigDecimal = new BigDecimal("0.02");
+        int minute = bigDecimal.multiply(new BigDecimal(24 * 60)).intValue();
+        System.out.println(JSON.toJSONString(minute));
+
+        DateTime dateTime = DateUtil.offsetMinute(new Date(), minute);
+        System.out.println(dateTime);
+    }
 
     @Test
     public void void51() {
