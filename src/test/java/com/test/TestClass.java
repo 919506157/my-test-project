@@ -62,6 +62,15 @@ public class TestClass {
 
     private static ExecutorService executorService = Executors.newFixedThreadPool(5);
 
+
+    @Test
+    public void void55() {
+        ConcurrentHashMap<String, String> res = new ConcurrentHashMap<>();
+        res.put("string","");
+
+    }
+
+
     @Test
     public void void54() {
         LocalDate now = LocalDate.now();
@@ -73,7 +82,6 @@ public class TestClass {
         LocalDate firstDayOfLastMonth = now.minusMonths(1).with(TemporalAdjusters.firstDayOfMonth());
 
 
-
         System.out.println("");
     }
 
@@ -83,7 +91,7 @@ public class TestClass {
         reentrantLock.lock();
 
         StringBuilder stringBuilder = new StringBuilder();
-        System.out.println("111"+stringBuilder.toString());
+        System.out.println("111" + stringBuilder.toString());
 
         ArrayList<String> list = new ArrayList<>();
         List<String> collect = list.stream().filter(s -> s.equals("1")).collect(Collectors.toList());
@@ -1058,21 +1066,7 @@ public class TestClass {
 
     @Test
     public void test7() {
-        String a = "{\n" +
-                "\t\"ActionStatus\": \"OK\",\n" +
-                "\t\"ErrorCode\": 0,\n" +
-                "\t\"GroupId\": \"@TGS#2FZNNRAEU\",\n" +
-                "\t\"ShuttedUinList\": [\n" +
-                "\t\t{\n" +
-                "\t\t\t\"Member_Account\": \"tommy\",\n" +
-                "\t\t\t\"ShuttedUntil\": 1458115189\n" +
-                "\t\t},\n" +
-                "\t\t{\n" +
-                "\t\t\t\"Member_Account\": \"peter\",\n" +
-                "\t\t\t\"ShuttedUntil\": 1458115189\n" +
-                "\t\t}\n" +
-                "\t]\n" +
-                "}";
+        String a = "{\n" + "\t\"ActionStatus\": \"OK\",\n" + "\t\"ErrorCode\": 0,\n" + "\t\"GroupId\": \"@TGS#2FZNNRAEU\",\n" + "\t\"ShuttedUinList\": [\n" + "\t\t{\n" + "\t\t\t\"Member_Account\": \"tommy\",\n" + "\t\t\t\"ShuttedUntil\": 1458115189\n" + "\t\t},\n" + "\t\t{\n" + "\t\t\t\"Member_Account\": \"peter\",\n" + "\t\t\t\"ShuttedUntil\": 1458115189\n" + "\t\t}\n" + "\t]\n" + "}";
 
 
         JSONObject jsonObject = JSON.parseObject(a);
@@ -1297,9 +1291,7 @@ public class TestClass {
     }
 
     private String createCharacter(Graphics g) {
-        char[] codeSeq = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J',
-                'K', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W',
-                'X', 'Y', 'Z', '2', '3', '4', '5', '6', '7', '8', '9'};
+        char[] codeSeq = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '2', '3', '4', '5', '6', '7', '8', '9'};
         String[] fontTypes = {"Arial", "Arial Black", "AvantGarde Bk BT", "Calibri"};
         Random random = new Random();
         StringBuilder s = new StringBuilder();
