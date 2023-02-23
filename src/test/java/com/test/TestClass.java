@@ -5,6 +5,7 @@ import cn.hutool.core.date.DateUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.net.ftp.FTPClient;
+import org.apache.log4j.helpers.ThreadLocalMap;
 import org.junit.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -44,6 +45,7 @@ import java.time.temporal.TemporalAdjusters;
 import java.util.List;
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -65,9 +67,43 @@ public class TestClass {
 
     @Test
     public void void55() {
-        ConcurrentHashMap<String, String> res = new ConcurrentHashMap<>();
-        res.put("string","");
+//        ConcurrentHashMap<String, String> chMap = new ConcurrentHashMap<>();
+//        chMap.put("string", "");
+//
+//        HashMap<Object, Object> hMap = new HashMap<>();
+//        hMap.put("1", "1");
+//        hMap.put("2", "2");
+//
+//        hMap.get("1");
+//
+//        int a = 1;
+//        int b = 2;
+//        int c = 3;
+//        int d = a = b = c;
+//        System.out.println(d);
 
+        ThreadLocal<String> objectThreadLocal = new ThreadLocal<>();
+        String s = objectThreadLocal.get();
+        objectThreadLocal.set("a");
+
+        AtomicInteger atomicInteger = new AtomicInteger(1);
+        atomicInteger.compareAndSet(1,2);
+        try {
+            ArrayBlockingQueue<String> arrayBlockingQueue = new ArrayBlockingQueue(10);
+            arrayBlockingQueue.put("a");
+            for (int i = 0; i < 15; i++) {
+                arrayBlockingQueue.put( + i + "");
+            }
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        try {
+            LinkedBlockingQueue<String> objects = new LinkedBlockingQueue<>(10);
+            objects.put("a");
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 
