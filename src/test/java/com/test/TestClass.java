@@ -5,7 +5,6 @@ import cn.hutool.core.date.DateUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import org.apache.commons.net.ftp.FTPClient;
-import org.apache.log4j.helpers.ThreadLocalMap;
 import org.junit.Test;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -26,6 +25,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.net.*;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
@@ -54,16 +54,287 @@ import java.util.stream.Collectors;
 public class TestClass {
     private static final SimpleDateFormat sdfDate = new SimpleDateFormat("yyyyMMdd");
     private static final SimpleDateFormat sdfDateTime = new SimpleDateFormat("yyyyMMddHHmmss");
-
-
     private static final Integer[] userIdArray = new Integer[]{13314310, 13314311, 13314312, 13314313, 13314314, 13314315, 13314316, 13314317, 13314318, 13314319, 13314320, 13314321, 13314322, 13314323, 13314324, 13314325, 13314326, 13314327, 13314328, 13314329, 13314330, 13314331, 13314332, 13314333, 13314334, 13314335, 13314336, 13314337, 13314338, 13314339, 13314340, 13314341, 13314342, 13314343, 13314344, 13314345, 13314346, 13314347, 13314348, 13314349, 13314350, 13314351, 13314352, 13314353, 13314354, 13314355, 13314356, 13314357, 13314358, 13314359, 13314360, 13314361, 13314362, 13314363, 13314364, 13314365, 13314366, 13314367, 13314368, 13314369, 13314370, 13314371, 13314372, 13314373, 13314374, 13314375, 13314376, 13314377, 13314378, 13314379, 13314380, 13314381, 13314382, 13314383, 13314384, 13314385, 13314386, 13314387, 13314388, 13314389, 13314390, 13314391, 13314392, 13314393, 13314394, 13314395, 13314396, 13314397, 13314398, 13314399, 13314400, 13314401, 13314402, 13314403, 13314404, 13314405, 13314406, 13314407, 13314408, 13314409};
     public static final DateTimeFormatter yyyyMMdd = DateTimeFormatter.ofPattern("yyyyMMdd");
-
     private static final SimpleDateFormat YYYY_MM_DD_HH_MM_SS = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-
-
     private static ExecutorService executorService = Executors.newFixedThreadPool(5);
 
+    @Test
+    public void test66(){
+        List<String> a = new ArrayList<>();
+        a.add("123");
+        a.add("456");
+        List<String> b = new ArrayList<>();
+        b.add("456");
+        b.add("789");
+        a.retainAll(b);
+        System.out.println(JSON.toJSONString(a));
+    }
+
+    boolean[] vis;
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<List<Integer>>();
+        List<Integer> perm = new ArrayList<Integer>();
+
+        vis = new boolean[nums.length];
+        Arrays.sort(nums);
+
+        backtrack(nums, ans, 0, perm);
+        return ans;
+    }
+    public void backtrack(int[] nums, List<List<Integer>> ans, int idx, List<Integer> perm) {
+        if (idx == nums.length) {
+            ans.add(new ArrayList<Integer>(perm));
+            return;
+        }
+        for (int i = 0; i < nums.length; ++i) {
+            if (vis[i] || (i > 0 && nums[i] == nums[i - 1] && !vis[i - 1])) {
+                continue;
+            }
+            perm.add(nums[i]);
+            vis[i] = true;
+            backtrack(nums, ans, idx + 1, perm);
+            vis[i] = false;
+            perm.remove(idx);
+        }
+    }
+
+
+
+    @Test
+    public void void65() {
+        int[] param = new int[]{1, 2, 3};
+        int length = param.length;
+//        List<Integer> temp = new ArrayList<Integer>();
+        List<List<Integer>> result = new ArrayList<List<Integer>>();
+
+        //2的n次方
+        int possiableNum = 1 << length;
+
+        for (int i = 0; i < possiableNum; i++) {
+            List<Integer> temp = new ArrayList<Integer>();
+            for (int j = 0; j < length; j++) {
+                //01的第几位
+                int position = 1 << j;
+                //
+                int i1 = i & position;
+                //计算该位置是否是1，否则
+                if (i1 != 0) {
+                    temp.add(param[j]);
+                }
+            }
+            result.add(temp);
+        }
+        System.out.println(JSON.toJSONString(result));
+    }
+
+    //    List<Integer> temp = new ArrayList<Integer>(3);
+    Integer[] temp = new Integer[3];
+
+    List<List<Integer>> result1 = new ArrayList<List<Integer>>();
+
+    @Test
+    public void void66() {
+        int[] param = new int[]{1, 1, 2};
+        dfs(0, param);
+        System.out.println(JSON.toJSONString(result1));
+    }
+
+    public void dfs(int cur, int[] nums) {
+        if (cur == nums.length) {
+            result1.add(new ArrayList<>(Arrays.asList(temp)));
+            return;
+        }
+        for (int i = 0; i < nums.length; i++) {
+//            if (temp[i] != null || (i - 1 >= 0 && temp[i - 1] != null && temp[i - 1] >= nums[cur])) {
+//                continue;
+//            }
+            if (temp[i] != null ) {
+                continue;
+            }
+            temp[i] = nums[cur];
+            dfs(cur + 1, nums);
+            temp[i] = null;
+        }
+    }
+
+    //保存输入的数组
+//    static ArrayList<String> param = new ArrayList<>();
+
+//    @Test
+//    public void main1() {
+//        param.add("1");
+//        param.add("2");
+//        param.add("3");
+//
+//
+//        //用于下面函数使用，记录每个组合的成员
+//        ArrayList<String> temp = new ArrayList<>();
+//
+//        //保存结果的二维数组
+//        ArrayList<ArrayList<String>> result = new ArrayList<>();
+//
+//
+//        String[] arrs = new String[param.size()];
+//        param.toArray(arrs);
+//        int n = arrs.length + 1;
+//        //核心思想：根据组合的长度不同来划分，遍历长度1-len，依次计算每个长度的组合都有哪些
+//        for (int i = 1; i < n; i++) {
+//            //求组合的核心算法
+//            combine(result, arrs, 0, i, temp);
+//        }
+//        //输出
+//        for (int i = 0; i < result.size(); i++) {
+//            for (int j = 0; j < result.get(i).size(); j++) {
+//                System.out.print(result.get(i).get(j) + " ");
+//            }
+//            System.out.println();
+//        }
+//    }
+
+    //求组合的核心算法，参数依次为：结果集，输入的数组，遍历输入数组的下标，当前组合的长度，当前组合的成员存放数组
+    public static void combine(ArrayList<ArrayList<String>> res, String[] arr, int start, int len, ArrayList<String> temp) {
+        //如果没有剩余的长度了，即此时的temp中存放了足够的成员，即输出到结果集，需要注意的是要新new一个ArrayList，若只用一个的话，它的值会跟着后面改变而改变
+        if (len == 0) {
+            ArrayList<String> t = new ArrayList<>();
+            for (String a : temp) t.add(a);
+            res.add(t);
+            return;
+        }
+        //遍历完数组，退出
+        if (start >= arr.length) return;
+        //要当前值
+        temp.add(arr[start]);
+        combine(res, arr, start + 1, len - 1, temp);
+        //不要当前值
+        temp.remove(temp.size() - 1);
+        combine(res, arr, start + 1, len, temp);
+    }
+
+
+    @Test
+    public void void63() {
+        DateTime dateTime = DateUtil.endOfDay(new Date());
+        System.out.println(dateTime);
+    }
+
+
+    @Test
+    public void void62() {
+        BigDecimal bigDecimal = new BigDecimal("1");
+        BigDecimal bigDecimal1 = new BigDecimal("0.0001");
+
+        BigDecimal bigDecimal2 = bigDecimal.multiply(bigDecimal1).setScale(1, RoundingMode.HALF_UP);
+        System.out.println(bigDecimal2);
+    }
+
+
+    @Test
+    public void void61() {
+
+        List<User> list = new ArrayList<>();
+        User user1 = new User("111", "111");
+        User user2 = new User("2222", "222");
+        list.add(user1);
+        list.add(user2);
+
+        System.out.println(user1);
+
+        List<User> collect = list.stream().filter(user -> {
+
+            return user.getEmail().equals("111");
+        }).collect(Collectors.toList());
+        user1 = new User("333", "333");
+        user1.setEmail("54656465456");
+
+        System.out.println(collect.get(0));
+
+        System.out.println(list);
+        System.out.println(collect);
+
+        System.out.println(JSON.toJSONString(list));
+
+
+        List<Integer> list1 = new ArrayList<>();
+        Integer a = 1;
+        Integer b = 2;
+        list1.add(a);
+        list1.add(b);
+
+        System.out.println(list1);
+
+        Integer[] arr = new Integer[]{a, b};
+        a = 3;
+        System.out.println(arr);
+
+        int c = 1;
+        int d = 2;
+        int[] arr1 = new int[]{c, d};
+        d = 3;
+        System.out.println(arr1);
+
+
+        List<String> lsit3 = new ArrayList<>();
+        lsit3.add("a");
+        lsit3.add("b");
+
+        for (String s : lsit3) {
+            s = "d";
+        }
+        System.out.println(lsit3);
+    }
+
+    @Test
+    public void void60() {
+        StringBuilder stringBuilder = new StringBuilder();
+        System.out.println(stringBuilder.toString());
+    }
+
+
+    @Test
+    public void void59() {
+        ArrayList list = new ArrayList();
+        list.remove("");
+        list.add(1, "");
+    }
+
+    @Test
+    public void void58() {
+//        CyclicBarrier cyclicBarrier = new CyclicBarrier(10);
+//        cyclicBarrier.await();
+//
+//        CountDownLatch countDownLatch = new CountDownLatch(10);
+//        countDownLatch.countDown();
+//        countDownLatch.await();
+//        List<Integer> list = new ArrayList<>();
+//        list.add(1);
+//        addString(list);
+//        System.out.println(list);
+    }
+
+    @Test
+    public void void57() {
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        addString(list);
+        System.out.println(list);
+    }
+
+    public void addString(List list) {
+        list.add("aaa");
+    }
+
+    @Test
+    public void void56() {
+        StringTokenizer stringTokenizer = new StringTokenizer("C:\\Program Files\\Java\\jre1.8.0_91\\lib\\ext;C:\\Windows\\Sun\\Java\\lib\\ext", File.pathSeparator);
+        int i = stringTokenizer.countTokens();
+        String s1 = stringTokenizer.nextToken();
+        System.out.println(s1);
+
+        ClassLoader classLoader = TestClass.class.getClassLoader();
+        ClassLoader parent = classLoader.getParent();
+        parent.getParent();
+    }
 
     @Test
     public void void55() {
@@ -82,17 +353,20 @@ public class TestClass {
 //        int d = a = b = c;
 //        System.out.println(d);
 
+        LinkedList<String> linkedList = new LinkedList<>();
+        linkedList.add("");
+
         ThreadLocal<String> objectThreadLocal = new ThreadLocal<>();
         String s = objectThreadLocal.get();
         objectThreadLocal.set("a");
 
         AtomicInteger atomicInteger = new AtomicInteger(1);
-        atomicInteger.compareAndSet(1,2);
+        atomicInteger.compareAndSet(1, 2);
         try {
             ArrayBlockingQueue<String> arrayBlockingQueue = new ArrayBlockingQueue(10);
             arrayBlockingQueue.put("a");
             for (int i = 0; i < 15; i++) {
-                arrayBlockingQueue.put( + i + "");
+                arrayBlockingQueue.put(+i + "");
             }
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
@@ -104,6 +378,8 @@ public class TestClass {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+
     }
 
 
